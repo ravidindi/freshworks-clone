@@ -1,0 +1,287 @@
+body{
+    font-family: neue-haas-grotesk-display,Helvetica,sans-serif;
+}
+p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #3b3f47;
+    margin: 10px 0;
+}
+h2{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* Navbar Section */
+
+.navbar{
+    position: sticky;
+    top:0;
+    left: 0;
+}
+.product{
+    font-size:0.6rem;
+   
+}
+.product-box{
+    display:flex;
+   
+}
+.product-desc{
+    padding-left:10px;
+}
+
+/* Main Section */
+
+#main{
+    background-image: linear-gradient(to right,#E8E0F4,#977BBC);
+    padding: 3%;
+}
+.main-image img{
+    width: 732px;
+    height: 500px ;
+}
+.big-heading{
+    font-weight: 800;
+    font-size: 5rem;
+}
+.main-content{
+    padding-top: 3%;
+    padding-left: 3%;
+}
+.main-content p{
+    font-size: 1.5rem;
+}
+.main-content button{
+    margin: 2% 3%;
+}
+#light{
+        background-color:#D0C2E3;
+        color: black;
+}
+#light:hover{
+    border-color: #0b1320;
+    box-shadow: 0px 0px 1px 1px #0b1320;
+}
+
+/* Features Section */
+#features h1{
+    text-align: center;
+    font-weight: 700;
+}
+#features p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 1% auto;
+    padding: 0 17%;
+}
+#features div{
+    padding: 5% 0 1%;
+}
+.left{
+    border-right: 1px dashed rgba(11,19,32,.3);
+}
+#features img{
+    margin-left: 14%;
+    width: 469px;
+}
+.right-features{
+    height: 327px;
+    width: 492px;
+    margin-bottom: 3%;
+}
+.heading-left{
+    margin-top: 3%;
+}
+#features button{
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    border-radius: 3px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: background-color .15s ease-in;
+    white-space: normal;
+    padding: 9px 29px;
+    font-size: .875rem;
+    background: 0 0;
+    border-style: solid;
+    border-width: 1px;
+}
+#features button:hover{
+    border-color: #0b1320;
+    box-shadow: 0px 0px 1px 1px #0b1320;
+}
+
+/* Pricing Section */
+#pricing {
+    background-color: #0B1320;
+    color: white;
+}
+#pricing img{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 3%;
+}
+#pricing h2{
+   padding-top: 9%;
+   text-align: center;
+   font-size: 2.25rem;
+}
+#pricing p{
+
+font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+#pricing a{
+    text-decoration: none;
+    color:#d82b00;
+}
+#pricing i{
+    margin-left: 1%;
+}
+.pricing-para{
+
+font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.75;
+    padding: 1% 15%;
+}
+.pricing{
+    padding: 2% 7% ;
+}
+
+/* Fixed Button */
+.fixed-button{
+    position: fixed;
+    bottom: 42px;
+    right: 20px;
+    color:white;
+}
+.fixed-button:hover{
+    margin:2px 2px 0 0;
+    background-color: #0b1320;
+    }
+
+    /* Press section */
+
+#press img{
+    width: 140px;
+    margin: 7%;
+    
+}
+
+.main-container{
+    margin: 2% auto;
+
+}
+@media screen and (max-width:1128px) {
+    .for-m-s{
+        display: none;
+    }
+}
+#press h2{
+padding-top: 2%;
+text-align: center;
+font-size: 2.25rem;
+}
+#press p{
+
+font-weight: 400;
+ font-style: normal;
+ font-size: 1.25rem;
+ line-height: 1.75;
+ margin: 1% 15%;
+}
+/* Testimonial section */
+#testimonial{
+   background-color: #F7F7F7;
+}
+.combination{
+   text-align: center;
+   margin: 2% 0;
+}
+.combination img{
+    width: 330px;
+}
+.desc{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 10% 2%;
+
+}
+.speaker{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 auto 5%;
+    text-align: center;
+
+
+}
+/* Content section */
+#content img{
+width: 248px;
+}
+ 
+.mid-button{
+    margin: 10px auto;
+    display: block;
+    background-color: #0B1320;
+}
+.content{
+    padding: 3%;
+}
+/* News Section */
+#news{
+    padding: 0 5%;
+}
+#news h2{
+    margin: 7% 0;
+}
+
+#news img{
+    width: 343.3px;
+}
+#news a{
+    text-decoration: none;
+    color: #d82b00;
+}
+/* Get-Started section */
+#get-started{
+    background-image: url(https://website-assets-fw.freshworks.com/attachments/cksejum4900q4sng0frxzqm0j-banner1.full.png);
+    background-color: #0b1320;
+    color: white;
+    margin-top: 7%;
+    padding-bottom: 5%;
+    background-repeat: no-repeat;
+}
+#get-started h2{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 5% 0 0.5%;
+}
+#get-started p{
+    font-family: neue-haas-grotesk-text,Helvetica,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: white;
+    padding: 0 11%;
+}
+#get-started button{
+    margin-top: 2%;
+    background-color: white;
+    color: #0b1320;
+   
+}
